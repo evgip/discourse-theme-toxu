@@ -1,0 +1,33 @@
+.wrap {max-width: 90%;}
+.list-vote-count.discourse-tag{display: none;} 
+@media (min-width: 1350px) {
+.timeline-container {right: 20px;}
+.topic-body {width: 980px;}    
+}
+
+
+html.anon .topic-list a.title:visited:not(.badge-notification) {
+    color: #07C;    font-size: 1.113em;
+}
+
+.topic-list a.title {color: #07C;font-size: 1.213em;} .topic-list a.title:hover {color: #07C;font-size: 1.213em;}
+.names span a:first-letter {color:red;} .names span a{display: inline-block;}
+.discourse-tag.box {background-color: #E1ECF4;color: #39739d;}
+.discourse-tag.box:hover {background-color: #cee0ed;}
+.topic-list .num.posts-map a .number {background: #d1f0ff;color: #888;padding: 6px 12px;}
+.topic-list .num.posts-map a .number:hover {background: #bce7fc;}
+.posters .avatar { opacity: 0.7;} .posters .avatar:hover { opacity: 1;}
+.logo-big { opacity: 1;} .logo-big:hover { opacity: 0.7;}
+.topic-list a.title.visited:not(.badge-notification) {color: #07C;    font-size: 1.213em;}
+.topic-list a.title.visited:not(.badge-notification):hover{color:#3af;    font-size: 1.213em;}
+
+
+.topic-body .contents .cooked {
+       font-size: 17px;
+}
+
+.list-controls {background-color: white;}
+.wrap .contents {background-color: white;}
+.topic-list-bottom {background-color: white;}
+.container.posts {background-color: white;padding-left: 10px;padding-bottom: 50px;}
+#topic-title {margin-bottom: 0px;padding-top: 30px;padding-bottom: 10px;padding-left: 10px;background-color: white;}
